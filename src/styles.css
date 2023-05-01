@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  /* background-color: #D3DFF0; */
+  /* background-color: #131747; */
+}
+
+:root {
+  font-family: 'Inter', sans-serif;
+  background-color: #131747;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+.title {
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: 'Inter var', sans-serif;
+}
+
+.secondary-title {
+  font-size: large;
+  font-weight: bolder;
+  font-family: 'Inter var', sans-serif;
+}
+.dropdown-title {
+  font-size: large;
+  /* font-weight: bold; */
+  font-family: 'Inter var', sans-serif;
+}
+
+.navbar-item:hover {
+  cursor: pointer;
+  background-color: rgba(180, 191, 207, 0.759);
+}
+
+.nav-active {
+  cursor: pointer;
+  background-color: rgba(180, 191, 207, 0.759);
+}
+.dropdown-item:hover {
+  cursor: pointer;
+  background-color: rgba(180, 191, 207, 0.759);
+}
+
+.dropdown-toggle::after {
+  display:none;
+}
+.description{
+  font-size: large;
+  /* font-weight: bold; */
+  font-family: 'Inter var', sans-serif;
+  color: white;
+  /* text-align: justify;
+  white-space: pre-wrap; */
+  hyphens: auto;
+}
