@@ -49,11 +49,10 @@
   display:none;
 }
 .description{
-  font-size: large;
-  /* font-weight: bold; */
+  font-size: x-large;
+  font-weight:500;
   font-family: 'Inter var', sans-serif;
-  color: white;
-  /* text-align: justify;
-  white-space: pre-wrap; */
-  hyphens: auto;
+  color: #D3DFF0;
+  line-height: 1.2;
 }
+
